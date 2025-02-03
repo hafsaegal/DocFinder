@@ -1,7 +1,7 @@
-.container {
-    margin: 0;
-    padding: 0;
-
+.header{
+    display: flex;
+    align-items: centre;
+    justify-content: space-between;
 }
 
 
@@ -11,4 +11,7 @@
     gap: 10px;
     justify-content: end;
 
+}
+ul li{
+    margin-left: 20px;
 }
