@@ -16,24 +16,48 @@
           <ul class="ul">
             <li><a href="index.html">Home</a></li>
             <li><a href="about-us.html">About</a></li>
-            <li><a href="Contact-us.html">Contact us</a></li>
+            <li><a href="contact-us.html">Contact us</a></li>
           </ul>
         </nav>
       </header>
     </div>
-    <div class="images">
-      <img src="./images/pic1.jpg" alt="pic1" />
-      <img src="./images/pic2.jpg" alt="pic2" />
-      <img src="./images/pic 3.jpg" alt="pic3" />
-      <img src="./images/pic4.jpg" alt="pic4" />
-    </div>
+    <form id="appointmentForm">
+      <label for="patientName">Full Name:</label>
+      <input type="text" id="patientName" name="patientName" required /> <br />
 
-    <p>
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto, odio
-      consequuntur sunt, velit consectetur dignissimos dolorum quis recusandae
-      maiores voluptatem voluptate ducimus explicabo, cumque veniam quisquam?
-      Ipsum amet excepturi cupiditate.
-    </p>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required /><br />
+
+      <label for="phone">Phone Number:</label>
+      <input type="tel" id="phone" name="phone" required /><br />
+
+      <label for="specialist">Choose a Specialist:</label>
+      <select id="specialist" name="specialist" required>
+        <option value="">Select a Specialist</option>
+        <option value="Endocrinologist">Endocrinologist</option>
+        <option value="Gastroentrologist">Gastroenterologist</option>
+        <option value="Dentist">Dentist</option>
+        <option value="Gynae">Gynaecologist</option>
+        <option value="Neurologist">Neurologist</option>
+        <option value="Opthalmologist">Opthalmologist</option>
+        <option value="ENT">Ear, Nose and Throat</option>
+        <option value="Ortho">Orthopaedics</option>
+      </select>
+      <br />
+
+      <label for="appointmentDate">Appointment Date:</label>
+      <input
+        type="date"
+        id="appointmentDate"
+        name="appointmentDate"
+        required
+      /><br />
+
+      <label for="appointmentTime">Appointment Time:</label>
+      <input type="time" id="appointmentTime" name="appointmentTime" required />
+
+      <button type="submit">Book Appointment</button>
+    </form>
 
     <script src="./script/script.js"></script>
   </body>
