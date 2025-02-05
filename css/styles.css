@@ -13,3 +13,13 @@
 ul li {
   margin-left: 20px;
 }
+
+.image-container{
+    flex-wrap: wrap;
+    gap: 80px;
+}
+
+.image-container img {
+    object-fit: cover;
+    border-radius: 15px;
+}
