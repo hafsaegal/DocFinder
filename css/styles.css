@@ -1,17 +1,15 @@
-.header{
-    display: flex;
-    align-items: centre;
-    justify-content: space-between;
+.header {
+  display: flex;
+  align-items: centre;
+  justify-content: space-between;
 }
-
 
 .ul {
-    list-style: none;
-    display: flex;
-    gap: 10px;
-    justify-content: end;
-
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  justify-content: end;
 }
-ul li{
-    margin-left: 20px;
+ul li {
+  margin-left: 20px;
 }
