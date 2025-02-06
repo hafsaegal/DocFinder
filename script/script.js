@@ -30,4 +30,4 @@ document.getElementById('appointmentForm').addEventListener('submit', function(e
 
   // Reset the form
   document.getElementById("appointmentForm").reset();
-});
+});;
